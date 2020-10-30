@@ -26,7 +26,7 @@ def lightgbm_train(input_files, hyperparameters):
     command_args.append('config=/train.conf') 
     for k, v in hyperparameters.items():
         print(k,v)
-        command_args.append(k+'='+v[0]) 
+        command_args.append(k+'='+v) 
     for k, v in input_files.items():
         print(k,v)
         command_args.append(k+'='+v[0]) 
