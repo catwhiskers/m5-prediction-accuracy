@@ -11,7 +11,7 @@ Open a SageMaker notebook. FYI - I use ml.c5.2xlarge with 5GB EBS to run the cod
 
 ### Data analysis and preprocessing 
 
-(The notebook)[https://github.com/catwhiskers/m5-prediction-accuracy/blob/main/01-data-analysis-and-preparation.ipynb] This notebook shows how to do data analysis and preprocessing on [SageMaker notebook](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html). Packages are pre-installed therefore we can execute the notebook directly without machine provisioning. 
+[The notebook](https://github.com/catwhiskers/m5-prediction-accuracy/blob/main/01-data-analysis-and-preparation.ipynb) This notebook shows how to do data analysis and preprocessing on [SageMaker notebook](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html). Packages are pre-installed therefore we can execute the notebook directly without machine provisioning. 
 
 ## Performing training and prediction by a SageMaker built-in algorithm - xgboost 
 
